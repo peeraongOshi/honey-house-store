@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Honey Home</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffaf0;
+  color: #5c3b22;
+}
+header {
+  background: #e5b96d;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+nav {
+  background: #fff0d5;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: #704214;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 3px 10px #ddd;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+button {
+  background: #d99a45;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover { background: #b87a29; }
+footer {
+  background: #e5b96d;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🍯 Honey Home</h1>
+  <p>ความหวานจากธรรมชาติ ส่งตรงถึงบ้านคุณ</p>
+</header>
+
+<nav>
+  <a href="#home">หน้าหลัก</a>
+  <a href="#products">สินค้า</a>
+  <a href="#contact">ติดต่อเรา</a>
+</nav>
+
+<section class="hero" id="home">
+  <h2>Welcome to Honey Home</h2>
+  <p>เลือกน้ำผึ้งคุณภาพดี เพื่อสุขภาพและความสุขในทุกวัน</p>
+</section>
+
+<div class="container" id="products">
+  <h2>สินค้าแนะนำ</h2>
+  <div class="products">
